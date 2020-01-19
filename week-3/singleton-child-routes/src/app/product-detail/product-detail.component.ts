@@ -23,7 +23,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ProductDetailComponent implements OnInit {
 
   productId: string;
-  sellerId: 2222;
+  sellerId = 2222;
 
   constructor(route: ActivatedRoute) {
     this.productId = route.snapshot.paramMap.get('id');
