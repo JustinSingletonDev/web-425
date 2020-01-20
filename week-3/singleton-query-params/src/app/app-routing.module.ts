@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Assignment 3.2
+; Author: Justin Singleton
+; Date: 19 January 2020
+; Description: This program demonstrates the
+; use of routing in an Angular project.
+;===========================================
+*/
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
