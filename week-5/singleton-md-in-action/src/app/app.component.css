@@ -1,0 +1,32 @@
+/* LAYOUT */
+.parent {
+  height: 100px;
+}
+.left {
+  background-color: cyan;
+}
+.right {
+  background-color: yellow;
+}
+
+/* LOGIN */
+.frm-login { width: 50%; margin: 0 auto; }
+.frm-login-panel { border: 1px solid black; }
+.frm-login-header { background-color: orange; }
+.frm-login-toolbar { background-color: orange; color: white; }
+.frm-login-body { display: flex; flex-direction: column; margin-top: 15px; }
+.btn-login { background-color: green; color: white; }
+.frm-login-actions { text-align: right; }
+
+/* MAIN */
+.wrapper { width: 100%; margin-top: 10%; padding: 70px 70px 0; display: block; }
+
+/* TOOLBAR */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
