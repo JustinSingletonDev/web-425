@@ -15,8 +15,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <div class='wrapper'>
-      <h1>Welcome to my Home!</h2>
+    <div class='home-header'>
+      <h1>Welcome to my Home!</h1>
     </div>
   `,
   styles: []

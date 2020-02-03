@@ -1,12 +1,12 @@
 /* LAYOUT */
 .parent {
-  height: 100px;
+  height: 1000px;
 }
 .left {
-  background-color: cyan;
+  background-color: lightblue;
 }
 .right {
-  background-color: yellow;
+  background-color: lightslategray;
 }
 
 /* LOGIN */
@@ -19,7 +19,12 @@
 .frm-login-actions { text-align: right; }
 
 /* MAIN */
-.wrapper { width: 100%; margin-top: 10%; padding: 70px 70px 0; display: block; }
+.wrapper { width: 100%; margin-top: 10%; }
+
+h1{
+  z-index: 3;
+  margin-top: 50%;
+}
 
 /* TOOLBAR */
 .menu {
@@ -29,4 +34,9 @@
   right: 0;
   z-index: 2;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
