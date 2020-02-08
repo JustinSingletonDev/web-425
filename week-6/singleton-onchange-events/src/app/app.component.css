@@ -1,0 +1,15 @@
+.parent {
+  height: 1000px;
+}
+
+.left {
+  background-color: lightgoldenrodyellow;
+}
+
+.right {
+  background-color: lightgreen;
+}
+
+.parent1 {
+  background-color: deeppink;
+}
