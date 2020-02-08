@@ -1,0 +1,23 @@
+.parent {
+  height: 1000px;
+}
+
+.left {
+  background-color: lightgoldenrodyellow;
+}
+
+.right {
+  background-color: lightgreen;
+}
+
+h2 {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+app-price-quote {
+  margin-left: 40%;
+  text-align: center;
+}
