@@ -1,0 +1,13 @@
+mat-card {
+  margin: 5%;
+}
+
+.parent {
+  height: 1000px;
+}
+.left {
+  background-color: lightblue;
+}
+.right {
+  background-color: lightslategray;
+}
