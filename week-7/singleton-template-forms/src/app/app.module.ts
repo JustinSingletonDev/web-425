@@ -1,3 +1,14 @@
+/*
+============================================
+; Title: Assignment 7.2
+; Author: Justin Singleton
+; Date: 13 February 2020
+; Description: This program demonstrates the
+; use of Template Forms in an Angular
+; project.
+;===========================================
+*/
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
