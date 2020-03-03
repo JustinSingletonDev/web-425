@@ -1,0 +1,41 @@
+/* LAYOUT */
+.parent {
+  height: 1000px;
+}
+.left {
+  background-color: slategray;
+}
+.right {
+  background-color: goldenrod;
+}
+.side-button {
+  margin-top: 80%;
+}
+
+/* ORDER PAGE */
+.frm-order { width: 50%; margin: 10; }
+.frm-order-panel { border: 1px solid black; }
+.frm-order-header { background-color: orange; }
+.frm-order-toolbar { background-color: orange; color: white; }
+.frm-order-body { display: flex; flex-direction: column; margin-top: 15px; }
+.btn-order { background-color: green; color: white; }
+.frm-order-actions { text-align: right; }
+
+/* TOOLBAR */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+}
